@@ -5,8 +5,8 @@ from random import uniform as rand
 sunSize = 10.0
 sunSpeed = 3.0
 planetNum = 9
-frames = 1500
-mc.playbackOptions(loop = "continuous", min = 400, max = frames)
+frames = 200
+mc.playbackOptions(loop = "continuous", min = 0, max = frames)
 spinEx = "rotateY = time*10.0;"
 
 planetSize = [0.2, 0.4, 0.5, 0.3, 2.5, 2.0, 1.5, 1.5, 0.4]
